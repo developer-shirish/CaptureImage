@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btnCameraCapture = (Button) findViewById(R.id.button);
         btnGalleryCapture = (Button) findViewById(R.id.button2);
 
+        //Capture image from camera
         btnCameraCapture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        //Capture image from Gallery
         btnGalleryCapture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
